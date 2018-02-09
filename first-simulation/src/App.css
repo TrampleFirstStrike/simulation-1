@@ -1,28 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
 }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.Header {
+  background-color: #ab2a19;
+  height: 100px;
+  font-family: "Open Sans";
+  font-weight: bold;
+  color: white;
+}
+.Shelves {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: "Open Sans";
+
+ 
+
+}
+
+.ShelfButton {
+  margin-bottom: 20px;
+  width: 500px;
+  height: 60px;
+  background-color: #d34735;
+  cursor: pointer;
+  font-family: "Open Sans";
+  color: white;
+  
+}
+
+#title {
+  position: relative;
+  right: 120px;
+  bottom: 60px;
+  
+}
+
+#logo {
+  position: relative;
+  right: 220px;
+  top: 16px;
 }

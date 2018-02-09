@@ -16,7 +16,7 @@ app.use( bodyParser.json() );
 app.use( cors() );
 
 
-app.get('/api/test', bins_controller.test);
+
 
 
 //app.get('/api/bins_controller/:id)

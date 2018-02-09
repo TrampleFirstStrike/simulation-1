@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import axios from 'axios';
+import logo from "./logo.png";
+// import axios from 'axios';
 
 
 class Header extends Component {
@@ -31,8 +32,8 @@ render(){
 
     return(
         <div className="Header">
-
-        <h1>Heading</h1>
+        <img src={logo} id="logo"/>
+        <h1 id="title">SHELFIE</h1>
         </div>
     
     )
